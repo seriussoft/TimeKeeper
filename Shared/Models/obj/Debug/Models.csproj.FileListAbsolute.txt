@@ -1,0 +1,5 @@
+S:\Programming\GitHub\TimeKeeper\Shared\Models\bin\Debug\Models.dll
+S:\Programming\GitHub\TimeKeeper\Shared\Models\bin\Debug\Models.pdb
+S:\Programming\GitHub\TimeKeeper\Shared\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
+S:\Programming\GitHub\TimeKeeper\Shared\Models\obj\Debug\Models.dll
+S:\Programming\GitHub\TimeKeeper\Shared\Models\obj\Debug\Models.pdb

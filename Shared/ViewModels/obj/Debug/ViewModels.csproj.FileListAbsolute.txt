@@ -1,0 +1,5 @@
+S:\Programming\GitHub\TimeKeeper\Shared\ViewModels\bin\Debug\ViewModels.dll
+S:\Programming\GitHub\TimeKeeper\Shared\ViewModels\bin\Debug\ViewModels.pdb
+S:\Programming\GitHub\TimeKeeper\Shared\ViewModels\obj\Debug\ViewModels.csprojResolveAssemblyReference.cache
+S:\Programming\GitHub\TimeKeeper\Shared\ViewModels\obj\Debug\ViewModels.dll
+S:\Programming\GitHub\TimeKeeper\Shared\ViewModels\obj\Debug\ViewModels.pdb
