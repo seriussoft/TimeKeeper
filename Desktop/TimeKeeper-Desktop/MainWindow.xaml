@@ -14,7 +14,9 @@
   </i:Interaction.Behaviors>
 
   <Grid>
-    
-    
-  </Grid>
+		<Border Background="Beige" BorderBrush="Bisque" BorderThickness="2">
+			<ContentPresenter Content="{Binding}"/>
+		</Border>
+		
+	</Grid>
 </mahapps:MetroWindow>

@@ -1,0 +1,16 @@
+D:\SeriusSoft\Projects\Cross Platform\TimeKeeper\Desktop\GenericUserControls\bin\Debug\TimeKeeper.GenericUserControls.dll
+D:\SeriusSoft\Projects\Cross Platform\TimeKeeper\Desktop\GenericUserControls\bin\Debug\TimeKeeper.GenericUserControls.pdb
+D:\SeriusSoft\Projects\Cross Platform\TimeKeeper\Desktop\GenericUserControls\bin\Debug\System.Windows.Interactivity.dll
+D:\SeriusSoft\Projects\Cross Platform\TimeKeeper\Desktop\GenericUserControls\bin\Debug\de\System.Windows.Interactivity.resources.dll
+D:\SeriusSoft\Projects\Cross Platform\TimeKeeper\Desktop\GenericUserControls\bin\Debug\en\System.Windows.Interactivity.resources.dll
+D:\SeriusSoft\Projects\Cross Platform\TimeKeeper\Desktop\GenericUserControls\bin\Debug\es\System.Windows.Interactivity.resources.dll
+D:\SeriusSoft\Projects\Cross Platform\TimeKeeper\Desktop\GenericUserControls\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+D:\SeriusSoft\Projects\Cross Platform\TimeKeeper\Desktop\GenericUserControls\bin\Debug\it\System.Windows.Interactivity.resources.dll
+D:\SeriusSoft\Projects\Cross Platform\TimeKeeper\Desktop\GenericUserControls\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+D:\SeriusSoft\Projects\Cross Platform\TimeKeeper\Desktop\GenericUserControls\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+D:\SeriusSoft\Projects\Cross Platform\TimeKeeper\Desktop\GenericUserControls\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+D:\SeriusSoft\Projects\Cross Platform\TimeKeeper\Desktop\GenericUserControls\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+D:\SeriusSoft\Projects\Cross Platform\TimeKeeper\Desktop\GenericUserControls\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+D:\SeriusSoft\Projects\Cross Platform\TimeKeeper\Desktop\GenericUserControls\obj\Debug\GenericUserControls.csprojResolveAssemblyReference.cache
+D:\SeriusSoft\Projects\Cross Platform\TimeKeeper\Desktop\GenericUserControls\obj\Debug\TimeKeeper.GenericUserControls.dll
+D:\SeriusSoft\Projects\Cross Platform\TimeKeeper\Desktop\GenericUserControls\obj\Debug\TimeKeeper.GenericUserControls.pdb

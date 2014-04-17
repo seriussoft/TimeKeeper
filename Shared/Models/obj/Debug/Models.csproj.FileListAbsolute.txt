@@ -3,3 +3,10 @@ S:\Programming\GitHub\TimeKeeper\Shared\Models\bin\Debug\Models.pdb
 S:\Programming\GitHub\TimeKeeper\Shared\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
 S:\Programming\GitHub\TimeKeeper\Shared\Models\obj\Debug\Models.dll
 S:\Programming\GitHub\TimeKeeper\Shared\Models\obj\Debug\Models.pdb
+D:\SeriusSoft\Projects\Cross Platform\TimeKeeper\Shared\Models\bin\Debug\TimeKeeper.Models.dll
+D:\SeriusSoft\Projects\Cross Platform\TimeKeeper\Shared\Models\bin\Debug\TimeKeeper.Models.pdb
+D:\SeriusSoft\Projects\Cross Platform\TimeKeeper\Shared\Models\bin\Debug\Telerik.OpenAccess.35.Extensions.dll
+D:\SeriusSoft\Projects\Cross Platform\TimeKeeper\Shared\Models\bin\Debug\Telerik.OpenAccess.35.Extensions.xml
+D:\SeriusSoft\Projects\Cross Platform\TimeKeeper\Shared\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
+D:\SeriusSoft\Projects\Cross Platform\TimeKeeper\Shared\Models\obj\Debug\TimeKeeper.Models.dll
+D:\SeriusSoft\Projects\Cross Platform\TimeKeeper\Shared\Models\obj\Debug\TimeKeeper.Models.pdb

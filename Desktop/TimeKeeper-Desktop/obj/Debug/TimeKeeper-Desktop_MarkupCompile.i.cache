@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-S:\Programming\GitHub\TimeKeeper\Desktop\TimeKeeper-Desktop\obj\Debug\
+D:\SeriusSoft\Projects\Cross Platform\TimeKeeper\Desktop\TimeKeeper-Desktop\obj\Debug\
 TimeKeeper_Desktop
 none
 false
 DEBUG;TRACE
-S:\Programming\GitHub\TimeKeeper\Desktop\TimeKeeper-Desktop\App.xaml
-2-701707839
+D:\SeriusSoft\Projects\Cross Platform\TimeKeeper\Desktop\TimeKeeper-Desktop\App.xaml
+6993143414
 
-9-618776364
-14-1138395315
-MainWindow.xaml;Resources\Icons.xaml;
+15-1787507376
+19-1423497076
+MainWindow.xaml;Resources\Icons.xaml;UserControls\DateTimeControl.xaml;UserControls\TimeSpanControl.xaml;UserControls\UserControlDictionary.xaml;Views\Views.xaml;
 
-False
+True
 

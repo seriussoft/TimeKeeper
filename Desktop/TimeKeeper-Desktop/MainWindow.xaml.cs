@@ -15,6 +15,8 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using MahApps.Metro.Behaviours;
 using MahApps.Metro.Controls;
+using TimeKeeper.ViewModels;
+using TimeKeeper_Desktop.LocalViewModels;
 
 namespace TimeKeeper_Desktop
 {
@@ -23,14 +25,40 @@ namespace TimeKeeper_Desktop
   /// </summary>
   public partial class MainWindow : MetroWindow
   {
+		
+
     public MainWindow()
     {
+			var collection = CreateEntryCollection(4);
+			this.DataContext = new EntriesCollectionViewModel(collection);
+
       InitializeComponent();
-
-
 
       //AddWindowBehaviors();
     }
+
+		private IEnumerable<EntryViewModel> CreateEntryCollection(int numberOfEntries)
+		{
+			var entries =
+				Enumerable.Range(0, numberOfEntries)
+				.Select
+				(
+					i => new EntryViewModel()
+					{
+						ID = i,
+						StartDate = DateTime.MinValue,
+						EndDate = DateTime.MinValue.AddHours(i),
+						Description = String.Concat("Description - ", i),
+						Activity = new ActivityViewModel()
+						{
+							ID = i,
+							Name = String.Concat("Activity-",i)
+						}
+					}
+				);
+
+			return entries.ToList();
+		}
 
     private void AddWindowBehaviors()
     {

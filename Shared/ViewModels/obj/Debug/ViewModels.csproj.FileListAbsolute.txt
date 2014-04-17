@@ -3,3 +3,23 @@ S:\Programming\GitHub\TimeKeeper\Shared\ViewModels\bin\Debug\ViewModels.pdb
 S:\Programming\GitHub\TimeKeeper\Shared\ViewModels\obj\Debug\ViewModels.csprojResolveAssemblyReference.cache
 S:\Programming\GitHub\TimeKeeper\Shared\ViewModels\obj\Debug\ViewModels.dll
 S:\Programming\GitHub\TimeKeeper\Shared\ViewModels\obj\Debug\ViewModels.pdb
+D:\SeriusSoft\Projects\Cross Platform\TimeKeeper\Shared\ViewModels\bin\Debug\TimeKeeper.ViewModels.dll
+D:\SeriusSoft\Projects\Cross Platform\TimeKeeper\Shared\ViewModels\bin\Debug\TimeKeeper.ViewModels.pdb
+D:\SeriusSoft\Projects\Cross Platform\TimeKeeper\Shared\ViewModels\bin\Debug\GalaSoft.MvvmLight.Extras.WPF45.dll
+D:\SeriusSoft\Projects\Cross Platform\TimeKeeper\Shared\ViewModels\bin\Debug\GalaSoft.MvvmLight.WPF45.dll
+D:\SeriusSoft\Projects\Cross Platform\TimeKeeper\Shared\ViewModels\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\SeriusSoft\Projects\Cross Platform\TimeKeeper\Shared\ViewModels\bin\Debug\System.Windows.Interactivity.dll
+D:\SeriusSoft\Projects\Cross Platform\TimeKeeper\Shared\ViewModels\bin\Debug\Telerik.OpenAccess.35.Extensions.dll
+D:\SeriusSoft\Projects\Cross Platform\TimeKeeper\Shared\ViewModels\bin\Debug\TimeKeeper.Models.dll
+D:\SeriusSoft\Projects\Cross Platform\TimeKeeper\Shared\ViewModels\bin\Debug\TimeKeeper.Models.pdb
+D:\SeriusSoft\Projects\Cross Platform\TimeKeeper\Shared\ViewModels\bin\Debug\GalaSoft.MvvmLight.Extras.WPF45.pdb
+D:\SeriusSoft\Projects\Cross Platform\TimeKeeper\Shared\ViewModels\bin\Debug\GalaSoft.MvvmLight.Extras.WPF45.xml
+D:\SeriusSoft\Projects\Cross Platform\TimeKeeper\Shared\ViewModels\bin\Debug\GalaSoft.MvvmLight.WPF45.pdb
+D:\SeriusSoft\Projects\Cross Platform\TimeKeeper\Shared\ViewModels\bin\Debug\GalaSoft.MvvmLight.WPF45.xml
+D:\SeriusSoft\Projects\Cross Platform\TimeKeeper\Shared\ViewModels\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\SeriusSoft\Projects\Cross Platform\TimeKeeper\Shared\ViewModels\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\SeriusSoft\Projects\Cross Platform\TimeKeeper\Shared\ViewModels\bin\Debug\System.Windows.Interactivity.xml
+D:\SeriusSoft\Projects\Cross Platform\TimeKeeper\Shared\ViewModels\bin\Debug\Telerik.OpenAccess.35.Extensions.xml
+D:\SeriusSoft\Projects\Cross Platform\TimeKeeper\Shared\ViewModels\obj\Debug\ViewModels.csprojResolveAssemblyReference.cache
+D:\SeriusSoft\Projects\Cross Platform\TimeKeeper\Shared\ViewModels\obj\Debug\TimeKeeper.ViewModels.dll
+D:\SeriusSoft\Projects\Cross Platform\TimeKeeper\Shared\ViewModels\obj\Debug\TimeKeeper.ViewModels.pdb

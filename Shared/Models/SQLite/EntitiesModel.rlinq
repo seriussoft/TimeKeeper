@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DomainModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="2.0.0.0" name="Activity" namespace="TimeKeeper.Models.SQLite" showPropertiesCompartment="true" xmlns="http://www.telerik.com/ORM">
+  <orm:orm name="Activity" backend="sqlite" xmlns:orm="http://tempuri.org/ORM">
+    <orm:namespace name="TimeKeeper.Models.SQLite" default="true">
+      <orm:class name="ActivityModel" uniqueId="2ddd5c57-ce5c-4ce6-bd63-d4ad34a806fe">
+        <orm:identity>
+          <orm:single-field field-name="_iD" />
+        </orm:identity>
+        <orm:field name="_iD" property="ID" uniqueId="1cc297fd-9dd4-4f9e-b07b-ba067d6140f8" type="System.Int64" />
+        <orm:field name="_name" property="Name" uniqueId="bdb8a5ce-9daf-4f25-9c85-30d1f8d2f065" type="System.String" />
+        <orm:field name="_path" property="Path" uniqueId="ac5f53f4-0d4e-44d9-b514-007aa1e12455" type="System.String" />
+        <orm:field name="_entryModels" property="Entries" behavior="readwrite" uniqueId="d0e3a343-d718-4260-819b-f4342fdc34a4" type="TimeKeeper.Models.SQLite.EntryModel">
+          <orm:collection element-class="TimeKeeper.Models.SQLite.EntryModel" inverse-field="_activity" managed="true" order-by="" uniqueId="7475013b-d7c6-4c9b-a686-653cee95410f" />
+        </orm:field>
+      </orm:class>
+      <orm:class name="EntryModel" uniqueId="8d1a65d8-efe9-4f97-b840-a4ee2d50bec0">
+        <orm:identity>
+          <orm:single-field field-name="_iD" />
+        </orm:identity>
+        <orm:field name="_iD" property="ID" uniqueId="085df69a-9cf4-4e8c-84d0-ebe7ca7b368f" type="System.Int64" />
+        <orm:field name="_startDate" property="StartDate" uniqueId="b728fdc5-36b1-491d-90b3-dd08cde0d022" type="System.Nullable`1[[System.DateTime, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" />
+        <orm:field name="_endDate" property="EndDate" uniqueId="474cbf9f-8681-45f8-b2bb-342185a349bd" type="System.Nullable`1[[System.DateTime, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" />
+        <orm:field name="_totalTime" property="TotalTime" uniqueId="e7fee761-ff97-4d6f-bc06-11ce28f316ed" type="System.Nullable`1[[System.Int64, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" />
+        <orm:field name="_subTotalTime" property="SubTotalTime" uniqueId="d8ef7565-b3db-41ce-88d3-e62341a5ea57" type="System.Nullable`1[[System.Int64, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" />
+        <orm:field name="_breakTime" property="BreakTime" uniqueId="5a68fc7e-2b16-4502-8ab4-6dec37f0dba3" type="System.Nullable`1[[System.Int64, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" />
+        <orm:field name="_description" property="Description" uniqueId="fe12f666-d0e9-42c4-bad9-4c57695e14e4" type="System.String" />
+        <orm:field name="_activity" property="Activity" behavior="readwrite" uniqueId="d9635673-d06e-4549-8d54-fa4e454f0fa1" type="TimeKeeper.Models.SQLite.ActivityModel">
+          <orm:reference uniqueId="7475013b-d7c6-4c9b-a686-653cee95410f" association-name="EntryHasActivity" />
+        </orm:field>
+      </orm:class>
+    </orm:namespace>
+    <orm:schema schema="" />
+    <orm:relational-naming-settings>
+      <orm:source-strategy>Property</orm:source-strategy>
+      <orm:remove-camel-case>False</orm:remove-camel-case>
+    </orm:relational-naming-settings>
+  </orm:orm>
+  <ModelSettings xmlns="">
+    <SaveConnectionStringInAppConfig>false</SaveConnectionStringInAppConfig>
+    <NamingSettings>
+      <ClassRules>
+        <CaseMode>PascalCase</CaseMode>
+        <PluralizationMode>Singularize</PluralizationMode>
+      </ClassRules>
+      <FieldRules>
+        <AddPrefix>_</AddPrefix>
+        <CaseMode>CamelCase</CaseMode>
+      </FieldRules>
+      <PropertyRules>
+        <CaseMode>PascalCase</CaseMode>
+      </PropertyRules>
+      <NavigationPropertyRules />
+    </NamingSettings>
+    <CodeGenerationSettings>
+      <ImplementINotifyPropertyChanging>true</ImplementINotifyPropertyChanging>
+      <ImplementINotifyPropertyChanged>true</ImplementINotifyPropertyChanged>
+      <ImplementIDataErrorInfo>true</ImplementIDataErrorInfo>
+      <GenerateDataAnnotationAttributes>true</GenerateDataAnnotationAttributes>
+      <MappingDefinitionType>Attributes</MappingDefinitionType>
+      <OutputMode>SubNamespaces</OutputMode>
+    </CodeGenerationSettings>
+    <SchemaUpdateSettings />
+    <BackendConfigurationSettings>
+      <BackendConfiguration>
+        <Backend>SQLite</Backend>
+        <ProviderName>System.Data.SQLite</ProviderName>
+      </BackendConfiguration>
+    </BackendConfigurationSettings>
+  </ModelSettings>
+  <Types>
+    <DomainClass Id="2ddd5c57-ce5c-4ce6-bd63-d4ad34a806fe" name="ActivityModel" namespace="TimeKeeper.Models.SQLite" showPropertiesCompartment="true" showNavigationCompartment="true" showImplementationCompartment="true">
+      <Property Id="1cc297fd-9dd4-4f9e-b07b-ba067d6140f8" name="ID" type="Int64" label="ID : Int64" identity="true" fieldName="_iD" />
+      <Property Id="bdb8a5ce-9daf-4f25-9c85-30d1f8d2f065" name="Name" label="Name : String" fieldName="_name" />
+      <Property Id="ac5f53f4-0d4e-44d9-b514-007aa1e12455" name="Path" label="Path : String" nullable="true" fieldName="_path" />
+      <navigationalProperties>
+        <classHasNavigationalProperties Id="ea19a718-30ea-4a94-b32f-1277a126fee6">
+          <NavigationalProperty Id="d0e3a343-d718-4260-819b-f4342fdc34a4" name="Entries" type="IList&lt;EntryModel&gt;" label="Entries : IList&lt;EntryModel&gt;" nullable="true" kind="Persistent" fieldName="_entryModels" isDependent="false" isManaged="true" />
+        </classHasNavigationalProperties>
+      </navigationalProperties>
+    </DomainClass>
+    <DomainClass Id="8d1a65d8-efe9-4f97-b840-a4ee2d50bec0" name="EntryModel" namespace="TimeKeeper.Models.SQLite" showPropertiesCompartment="true" showNavigationCompartment="true" showImplementationCompartment="true">
+      <Property Id="085df69a-9cf4-4e8c-84d0-ebe7ca7b368f" name="ID" type="Int64" label="ID : Int64" identity="true" fieldName="_iD" />
+      <Property Id="b728fdc5-36b1-491d-90b3-dd08cde0d022" name="StartDate" type="DateTime" label="StartDate : DateTime" nullable="true" fieldName="_startDate" />
+      <Property Id="474cbf9f-8681-45f8-b2bb-342185a349bd" name="EndDate" type="DateTime" label="EndDate : DateTime" nullable="true" fieldName="_endDate" />
+      <Property Id="e7fee761-ff97-4d6f-bc06-11ce28f316ed" name="TotalTime" type="Int64" label="TotalTime : Int64" nullable="true" fieldName="_totalTime" />
+      <Property Id="d8ef7565-b3db-41ce-88d3-e62341a5ea57" name="SubTotalTime" type="Int64" label="SubTotalTime : Int64" nullable="true" fieldName="_subTotalTime" />
+      <Property Id="5a68fc7e-2b16-4502-8ab4-6dec37f0dba3" name="BreakTime" type="Int64" label="BreakTime : Int64" nullable="true" fieldName="_breakTime" />
+      <Property Id="fe12f666-d0e9-42c4-bad9-4c57695e14e4" name="Description" label="Description : String" nullable="true" fieldName="_description" />
+      <AssociationTargets>
+        <Association Id="7475013b-d7c6-4c9b-a686-653cee95410f" SourceMultiplicity="ZeroOne" name="EntryHasActivity">
+          <DomainClassMoniker name="/Activity/ActivityModel" />
+          <targetNavigationalProperty>
+            <associationDefinesTargetProperty Id="79ce2687-9181-4587-98f7-3f295d97c881">
+              <NavigationalPropertyMoniker name="/Activity/ActivityModel/Entries" />
+            </associationDefinesTargetProperty>
+          </targetNavigationalProperty>
+          <sourceNavigationalProperty>
+            <associationDefinesSourceProperty Id="1ffbd32a-2d22-40f1-9cff-c8a6b8dbacce">
+              <NavigationalPropertyMoniker name="/Activity/EntryModel/Activity" />
+            </associationDefinesSourceProperty>
+          </sourceNavigationalProperty>
+        </Association>
+      </AssociationTargets>
+      <navigationalProperties>
+        <classHasNavigationalProperties Id="5d30d8b2-1495-4a35-a48c-3e8a5e6b2eed">
+          <NavigationalProperty Id="d9635673-d06e-4549-8d54-fa4e454f0fa1" name="Activity" type="ActivityModel" label="Activity : ActivityModel" nullable="true" kind="Persistent" fieldName="_activity" isDependent="false" isManaged="true" />
+        </classHasNavigationalProperties>
+      </navigationalProperties>
+    </DomainClass>
+  </Types>
+  <domainContext>
+    <domainModelHasDomainContext Id="359a8c28-8e39-4632-b6ab-00d9972b6673">
+      <domainContainer name="Activity" namespace="TimeKeeper.Models.SQLite" showPropertiesCompartment="true">
+        <entitySetProperty name="ActivityModels" namespace="TimeKeeper.Models.SQLite" type="ActivityModel" label="ActivityModels : IQueryable&lt;TimeKeeper.Models.SQLite.ActivityModel&gt;" />
+        <entitySetProperty name="EntryModels" namespace="TimeKeeper.Models.SQLite" type="EntryModel" label="EntryModels : IQueryable&lt;TimeKeeper.Models.SQLite.EntryModel&gt;" />
+      </domainContainer>
+    </domainModelHasDomainContext>
+  </domainContext>
+</DomainModel>
